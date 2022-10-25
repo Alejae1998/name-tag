@@ -33,3 +33,73 @@ header .logo {
 main {
     padding: 20px;
 }
+
+.tomato {
+    color: tomato;
+}
+
+.green {
+    color: green;
+}
+
+.pink {
+    color: pink;
+}
+
+.yellow {
+    color: yellow;
+}
+
+/* .tag {
+    border-radius: 20px;
+    border: 2px solid orange;
+    width: 400px;
+    height: 250px;
+} */
+.name-tag {
+    margin-top: 20px;
+    width: 400px;
+    height: 275px;
+    background: coral;
+    text-align: center;
+    border-radius: 25px;
+    padding-top: 10px;
+}
+
+.hello {
+    padding: 5px;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    margin-top: 20px;
+    letter-spacing: 0.1em;
+}
+
+.mynameis {
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+
+.mynameis h1 {
+    color: white;
+    text-align: center;
+    height: 25px;
+    margin: 5px 0px 0px 0px;
+    font-size: 20px;
+}
+
+.name-display {
+    background: white;
+    //color: black;
+    font-size: 5em;
+    padding: 10px;
+    margin: 0px;
+    font-family: 'Brush Script MT', cursive;
+}
+
+/* .dottedline {
+    border-top: 3px dotted black;
+    margin-top: 100px;
+} */

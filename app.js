@@ -1,11 +1,28 @@
-/* Imports */
+const nameDisplay = document.getElementById('name');
+//console.log(`nameDisplay`, nameDisplay);
 
-/* Get DOM Elements */
+nameDisplay.textContent = 'Alejandra';
+nameDisplay.classList.add('yellow');
 
-/* State */
+const updateBtn = document.getElementById('btn');
+updateBtn.addEventListener('click', () => {
+    //console.log('I clicked the button');
+    const nameInput = document.getElementById('name-input');
+    nameDisplay.textContent = nameInput.value;
+    nameInput.value = '';
+});
 
-/* Events */
+const colorDropdown = document.getElementById('dropdown');
+colorDropdown.addEventListener('change', () => {
+    //console.log('change is happening');
+    //console.log(colorDropdown.value);
 
-/* Display Functions */
+    nameDisplay.classList.remove('tomato');
+    nameDisplay.classList.remove('green');
+    nameDisplay.classList.remove('pink');
+    nameDisplay.classList.remove('yellow');
+    nameDisplay.classList.add(colorDropdown.value);
+});
 
-// (don't forget to call any display functions you want to run on page load!)
+const nameTagSection = document.getElementById('name-tag-section');
+nameTagSection.classList.add('black');
