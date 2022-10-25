@@ -11,3 +11,14 @@ updateBtn.addEventListener('click', () => {
     nameDisplay.textContent = nameInput.value;
     nameInput.value = '';
 });
+
+const colorDropdown = document.getElementById('dropdown');
+colorDropdown.addEventListener('change', () => {
+    console.log('change is happening');
+    console.log(colorDropdown.value);
+
+    nameDisplay.classList.remove('tomato');
+    nameDisplay.classList.remove('green');
+    nameDisplay.classList.remove('pink');
+    nameDisplay.classList.add(colorDropdown.value);
+});
