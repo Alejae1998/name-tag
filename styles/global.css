@@ -33,3 +33,15 @@ header .logo {
 main {
     padding: 20px;
 }
+
+.tomato {
+    color: tomato;
+}
+
+.green {
+    color: green;
+}
+
+.pink {
+    color: pink;
+}
