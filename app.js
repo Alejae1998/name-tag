@@ -25,4 +25,4 @@ colorDropdown.addEventListener('change', () => {
 });
 
 const nameTagSection = document.getElementById('name-tag-section');
-nameTagSection.classList.add('green');
+nameTagSection.classList.add('black');
