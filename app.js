@@ -20,5 +20,9 @@ colorDropdown.addEventListener('change', () => {
     nameDisplay.classList.remove('tomato');
     nameDisplay.classList.remove('green');
     nameDisplay.classList.remove('pink');
+    nameDisplay.classList.remove('yellow');
     nameDisplay.classList.add(colorDropdown.value);
 });
+
+const nameTagSection = document.getElementById('name-tag-section');
+nameTagSection.classList.add('green');
